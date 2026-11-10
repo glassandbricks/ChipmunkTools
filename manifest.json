@@ -1,6 +1,6 @@
 {
   "name": "__MSG_extName__",
-  "short_name": "ScratchTools",
+  "short_name": "ChipmunkTools",
   "manifest_version": 3,
   "version": "4.3.0",
   "version_name": "4.3.0-beta",
@@ -18,7 +18,7 @@
   "action": {
     "default_icon": "/extras/icons/icon48.png",
     "default_popup": "/extras/popup/popup.html",
-    "default_title": "ScratchTools"
+    "default_title": "ChipmunkTools"
   },
   "icons": {
     "16": "/extras/icons/icon16.png",
@@ -28,7 +28,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://scratch.mit.edu/*"
+        "https://ww.scr.chipmunk.land/*"
       ],
       "run_at": "document_start",
       "js": [
@@ -39,7 +39,7 @@
     },
     {
       "matches": [
-        "https://scratch.mit.edu/*"
+        "https://ww.scr.chipmunk.land*"
       ],
       "run_at": "document_start",
       "js": [
@@ -62,15 +62,15 @@
         "/extras/icons/*"
       ],
       "matches": [
-        "https://scratch.mit.edu/*"
+        "https://ww.scr.chipmunk.land/*"
       ]
     }
   ],
   "host_permissions": [
-    "https://scratch.mit.edu/"
+    "https://ww.scr.chipmunk.land/"
   ],
   "optional_host_permissions": [
-    "https://api.scratch.mit.edu/"
+    "https://scr.chipmunk.land"
   ],
   "browser_specific_settings": {
     "gecko": {
@@ -80,7 +80,7 @@
   },
   "externally_connectable": {
     "matches": [
-      "https://scratch.mit.edu/*"
+      "https://ww.scr.chipmunk.land*"
     ]
   },
   "options_ui": {
