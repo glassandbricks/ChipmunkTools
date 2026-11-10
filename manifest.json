@@ -39,7 +39,7 @@
     },
     {
       "matches": [
-        "https://ww.scr.chipmunk.land*"
+        "https://ww.scr.chipmunk.land/*"
       ],
       "run_at": "document_start",
       "js": [
@@ -67,10 +67,10 @@
     }
   ],
   "host_permissions": [
-    "https://ww.scr.chipmunk.land/"
+    "https://ww.scr.chipmunk.land/*"
   ],
   "optional_host_permissions": [
-    "https://scr.chipmunk.land"
+    "https://scr.chipmunk.land/*"
   ],
   "browser_specific_settings": {
     "gecko": {
@@ -80,7 +80,7 @@
   },
   "externally_connectable": {
     "matches": [
-      "https://ww.scr.chipmunk.land*"
+      "https://ww.scr.chipmunk.land/*"
     ]
   },
   "options_ui": {
